@@ -1,0 +1,87 @@
+/* do not remove or edit the following rule */
+body {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav {
+	
+	text-align: center;
+	padding-right: 50px;
+	
+	
+}
+
+nav li{
+    display:inline;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+main {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+	text-align: center;
+	background-color: lightgrey;
+}
+
+ul {
+	color: red;
+}
+
+#currentpage {
+	color: yellow;
+}
+
+header {
+	text-align: center;
+}
+
+header > h1 {
+	color: white;
+	text-align: center;
+	background-color: darkblue;
+}
+
+main > h1 {
+	color: blue;
+}
+
+footer {
+	color: white;
+	background-color: darkblue;
+	text-align: center;
+}
+
+ol + p {
+		color: green;
+}
+
+main p:only-child {
+	color: green;
+}
+
+ul {
+	
+	list-style-type: none;
+	
+	
+}
+
+#cover {
+  margin: 0 auto;
+}
+
+#cover > img {
+  padding-left: 240px;
+
+}
+

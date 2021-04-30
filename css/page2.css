@@ -1,0 +1,127 @@
+
+.flex-item {
+  padding: 5px;
+  margin: 5px;
+  
+  
+}
+
+.rotate-item {
+  padding: 5px;
+  margin: 5px;
+  transition: 2s;
+  
+}
+
+.rotate-item:hover {
+	transform: rotate(90deg);
+	
+	
+}
+
+.rotate-item-2 {
+  padding: 5px;
+  margin: 5px;
+  transition: 2s;
+  
+}
+
+.rotate-item-2:hover {
+	transform: rotate(-90deg);
+	
+	
+}
+
+.filter-item {
+  padding: 5px;
+  margin: 5px;
+  filter: blur(2px);
+  
+}
+
+.filter-item-2 {
+  padding: 5px;
+  margin: 5px;
+  filter: opacity(.50);
+  
+}
+
+
+
+.flex-text {
+	padding-left: 7px;
+	font-size: 20px;
+	margin: 5px;
+	
+}
+
+.space-around { 
+   justify-content: space-around; 
+
+}  
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  
+  
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+
+.flex-container-2 > div {
+  width: 300px;
+  margin: 5px;
+  text-align: center;
+}
+
+#image1 {
+  background-image: url("../images/dog-13.jpg");
+  width:400px;
+  height:291px;
+}
+#image1:hover {
+  background-image: url("../images/dog-14.jpg");
+}
+
+#image2 {
+  background-image: url("../images/dog-15.jpg");
+  width:400px;
+  height:291px;
+}
+#image2:hover {
+  background-image: url("../images/dog-16.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
